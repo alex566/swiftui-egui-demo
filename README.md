@@ -21,3 +21,6 @@ After that you can open the project from SmoothChat folder in Xcode and run
 - egui - The UI implementation in rust
 - wgpu - The graphics library for rendering egui in a metal view
 - font-kit - For dynamically loading system fonts
+
+# Real projects showcase
+- [DataScout](https://apps.apple.com/us/app/datascout-for-sqlite-swiftdata/id6737813684) - Embedded databases debugging tool for macOS
