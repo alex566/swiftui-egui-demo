@@ -1,0 +1,29 @@
+[package]
+name = "smooth-ui"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "embed"
+crate-type = ["staticlib"]
+
+[profile.release]
+strip = "symbols"
+opt-level = "z"  # Optimize for size "z"
+panic = "abort"  # Reduce binary size by avoiding panic unwind
+lto = "fat"       # Link Time Optimization (LTO)
+codegen-units = 1
+
+[dependencies]
+swift-bridge = "0.1"
+
+futures = "0.3"
+
+wgpu = "23.0"
+egui = "0.30.0"
+egui_wgpu_backend = "0.33.0"
+
+font-kit = "0.14.2"
+
+[build-dependencies]
+swift-bridge-build = "0.1"

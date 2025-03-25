@@ -1,0 +1,9 @@
+smooth-ui/target
+smooth-ui/SmoothUI/.build
+smooth-ui/SmoothUI/.swiftpm
+
+smooth-ui/SmoothUI/RustXcframework.xcframework
+
+
+SmoothChat/SmoothChat.xcodeproj/xcuserdata
+SmoothChat/SmoothChat.xcodeproj/project.xcworkspace/xcuserdata
