@@ -1,5 +1,5 @@
 # Intro
-This project is demonstrating how egui can be embedded into swiftui project
+This project is demonstrating how egui can be embedded into swiftui project. An article can be found [here](https://medium.com/@djalex566/fast-fluid-integrating-rust-egui-into-swiftui-30a218c502c1)
 
 # Structure
 - SmoothChat - Xcode project with swiftui implementation
